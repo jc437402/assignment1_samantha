@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+.transition{
+	-moz-transition: 	all .2s;
+	-webkit-transition: all .2s;
+	-o-transition: 		all .2s;
+	transition: 		all .2s;
+	float: left;
+    margin: 5px;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+#Backg{
+	background-color: #E0BBBC;	
+}
+#Banner{
+	font-size: xx-large;
+	text-align: center;
+	font-family: Heroes Assemble;
+}
+.topdockbar{
+	position: fixed;
+	left: 50%;	
+}
+.topdockitem{
+	
+	vertical-align: top;
+	width: 50px; /*Set to reduced image width*/
+	heigh:50px;  /*Set to reduced image height*/
+}
+.topdockbar:hover{
+	width:86px; /*Set to actual image width*/
+	heigh:86px;	/*Set to actual image height*/
+}
+a{
+	font-family: Heroes Assemble;
+	font-style: normal;
+	color: #000;
+	text-align: center;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: large;
+	padding: 100px;
+}
+a:hover{
+	color: #F3BB19;	
+}
+#Footer{
+	font-size: x-small;
+	text-align: right;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.center{
+	text-align: center;
+}
+.left{
+	text-align: left;
+}
+h2{
+	font-family: Heroes Assemble;
+}
+.p1{
+	border: thin groove #C6C6C6;
+	padding: 10px;
+}
+
+.imageL{
+	float:left;
+	padding: 10px;
+	
+}
+.imageR{
+	float: right;
+	padding: 10px;
+}
+.imageC{
+	float: center;
+	padding: 10px;
+}
+.p2{
+	border: thin dashed #7E7E7E;
+	padding: 10px;
+}
+.t1{
+	border-collapse: collapse;
+}
+.alice{
+	 width:300px;
+	 height:250px;
+}
+.devil{
+	 width:300px;
+	 height:250px;
+}
+.dj{
+	 width:300px;
+	 height:250px;	
+}
+.bookF{
+	 width:300px;
+	 height:250px;
+}
+.olaf{
+	width:200px;
+	height:350px;
+}
+.boromir{
+	 swidth:200px;
+	 height:350px;
+}
